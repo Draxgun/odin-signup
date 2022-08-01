@@ -1,13 +1,37 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
 .mainContainer{
     display: flex;
+    width: 100vw;
+    height: 100vh;
 }
 
 .imageSide{
     display: flex;
     flex:1;
+    background-image: url('img/mayamain.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30vw;
 }
+
+.logoSection{
+    width: 100%;
+    height: 5em;
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 40px;
+}
+
 
 .contentSide{
     display: flex;
-    flex: 3;
+    flex: 2.5;
 }
