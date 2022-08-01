@@ -1,0 +1,13 @@
+.mainContainer{
+    display: flex;
+}
+
+.imageSide{
+    display: flex;
+    flex:1;
+}
+
+.contentSide{
+    display: flex;
+    flex: 3;
+}
