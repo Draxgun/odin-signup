@@ -61,5 +61,53 @@
 
 .contentSide{
     display: flex;
+    height: inherit;
+    flex-direction: column;
     flex: 2.5;
 }
+
+.header{
+    background-color: rgb(240, 240, 240);
+    width: inherit;
+    padding-top: 4vh;
+
+}
+
+.headerText,.headerInv{
+    width: 70vw;
+    font-size:calc(10px + 1vw);
+    padding: 2vw;
+    font-weight: bold;
+}
+
+/* Form */
+
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+}
+
+
+legend{
+    font-size: calc(20px + 1vw);
+    padding: 5vh 0px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-left: 2vw;
+    flex-wrap: wrap;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
+
+label,input,text{
+    font-size: 0.5em;
+  }
