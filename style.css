@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend', sans-serif;
 
 }
 
@@ -16,18 +16,46 @@
 .imageSide{
     display: flex;
     flex:1;
+    flex-direction: column;
+    align-items: center;
     background-image: url('img/mayamain.jpg');
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
     width: 30vw;
+    justify-content: space-between;
 }
 
 .logoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 5em;
+    height: 2.5em;
     background-color: rgba(0,0,0,0.4);
-    margin-top: 40px;
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.imageFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 8rem;
+    font-size: 1.75vw;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px;
+
 }
 
 
