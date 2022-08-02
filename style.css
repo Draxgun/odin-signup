@@ -69,45 +69,74 @@
 .header{
     background-color: rgb(240, 240, 240);
     width: inherit;
-    padding-top: 4vh;
+    padding-top: 2vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
 
 }
 
 .headerText,.headerInv{
+
     width: 70vw;
     font-size:calc(10px + 1vw);
     padding: 2vw;
     font-weight: bold;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex: 2;
+}
 /* Form */
-
-
 fieldset{
     display: flex;
     flex-direction: row;
     padding: 2vw;
-}
-
-
-legend{
-    font-size: calc(20px + 1vw);
-    padding: 5vh 0px;
+    border: 0;
+    padding-left: 2vw;
+    flex-wrap: wrap;
 }
 
 .inputs{
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    border: 0;
     padding-left: 2vw;
     flex-wrap: wrap;
 }
 
+legend{
+    font-size: calc(10px + 1vw);
+    padding: 1vh 0px;
+}
+
+
 .field{
     display: flex;
     flex-direction: column;
+    width: 25vw;
+    padding:1vw;
 }
 
 label,input,text{
-    font-size: 0.5em;
-  }
+    font-size: calc(15px + 0.25vw);
+}
+
+input{
+ border-radius: 10px;
+ width: 20vw;
+}
+
+.footer{
+    flex: 1;
+    background-color: rgb(240, 240, 240);
+    width: inherit;
+    height: 100%;
+    padding: 2vw;
+}
