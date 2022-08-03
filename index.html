@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <script src="javascript.js" defer></script>
     <title>Sign up form</title>
 </head>
 <body>
@@ -46,45 +47,51 @@
                         <div class="inputs">
                             <div class="field">
                                 <label for="firstName">Name </label>
-                                <input type="text" id="firstName" name="firstName">
+                                <input required type="text" id="firstName" name="firstName" placeholder="Maya">
                             </div>
     
                             <div class="field">
                                 <label for="lastName"> Last Name </label>
-                                <input type="text" id="lastName" name="lastName">
+                                <input required type="text" id="lastName" name="lastName" placeholder="Banuelos">
                             </div>
                             
                             <div class="field">
                                 <label for="email"> Email </label>
-                                <input type="email" id="email" name="email">
+                                <input required type="email" id="email" name="email" placeholder="maya@dog.com">
                             </div>
                             
                             <div class="field">
-                                <label for="tel"> Phone Number </label>
-                                <input type="tel" id="tel" name="tel">
+                                <label for="phone"> Phone Number </label>
+                                <input  type="tel" id="phone" name="phone"
+                                pattern="[0-9]{10}"
+                                required placeholder="6662294229">
             
                             </div>
                             
                             <div class="field">
                                 <label for="password"> Password </label>
-                                <input type="password" id="password" name="password">
+                                <input required type="password" id="password" name="password" onChange="onChange()" placeholder="********">
                             </div>
                             
                             <div class="field">
                                 <label for="confirmPassword"> Confirm Password </label>
-                                <input type="password" id="confirmPassword" name="confirmPassword">
+                                <input required type="password" id="confirmPassword" name="confirmPassword" onChange="onChange()" placeholder="********">
                             </div>
+
+
+
                         </div> 
     
                       </fieldset>
                       
+
                 </form>
 
             </div>
             
             <!--footer-->
             <div class="footer">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="form">Create Account</button>
                 <div class="signInMessage">Already have an account?</div>
 
             </div>

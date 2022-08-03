@@ -40,9 +40,6 @@
     text-align: center;
 }
 
-
-
-
 .imageFooter{
     display: flex;
     justify-content: center;
@@ -57,7 +54,6 @@
     text-shadow: 1px;
 
 }
-
 
 .contentSide{
     display: flex;
@@ -102,6 +98,12 @@ fieldset{
     flex-wrap: wrap;
 }
 
+legend{
+    font-size: calc(10px + 1vw);
+    padding: 1vh 0px;
+    font-weight: bold;
+}
+
 .inputs{
     display: flex;
     flex-direction: row;
@@ -109,13 +111,6 @@ fieldset{
     padding-left: 2vw;
     flex-wrap: wrap;
 }
-
-legend{
-    font-size: calc(10px + 1vw);
-    padding: 1vh 0px;
-    font-weight: bold;
-}
-
 
 .field{
     display: flex;
@@ -136,7 +131,10 @@ label{
 input{
  border-radius: 10px;
  width: 20vw;
+ padding-left: 1vw;
 }
+
+
 
 .footer{
     flex: 1;
@@ -157,3 +155,15 @@ button{
     font-size: calc(8px + 1vw);
 }
 
+button:hover,
+button:focus {
+  outline     : none;
+  background  : #000;
+  color       : #FFF;
+}
+
+
+
+input:invalid {
+    border-color: red;
+  }
