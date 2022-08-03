@@ -119,12 +119,13 @@ legend{
     padding:1vw;
 }
 
-label,input,text, #message{
-    font-size: calc(15px + 0.25vw);
+label,input,text{
+    font-size:calc(15px + 0.25vw);
 }
 
 #message{
-    padding: 1vh;
+    font-size: calc(10px + 0.25vw);
+    padding: 0.5vh;
 }
 label{
     padding: 1vh;
