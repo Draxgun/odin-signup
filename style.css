@@ -119,10 +119,13 @@ legend{
     padding:1vw;
 }
 
-label,input,text{
+label,input,text, #message{
     font-size: calc(15px + 0.25vw);
 }
 
+#message{
+    padding: 1vh;
+}
 label{
     padding: 1vh;
     font-weight: bold;
@@ -176,4 +179,4 @@ button:focus {
 
 input:invalid {
     border-color: red;
-  }
+}
