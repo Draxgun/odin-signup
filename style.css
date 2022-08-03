@@ -144,6 +144,17 @@ input{
     padding: 2vw;
 }
 
+.footer::after{
+    content: 'Sign in';
+    font-size: inherit;
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+/* Button state */
 button{
     font-size: calc(5px + 1vw);
     padding: 0.5vw;
@@ -161,7 +172,6 @@ button:focus {
   background  : #000;
   color       : #FFF;
 }
-
 
 
 input:invalid {
